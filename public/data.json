@@ -1,74 +1,86 @@
 [
     {
-        "_id": "623e936e0f3d3bb36d413db0",
-        "picture": "http://placehold.it/32x32",
-        "name": "Genevieve Mcfadden",
-        "company": "ELECTONIC"
+        "id": "623ebe6fe899f64fd7b9f26a",
+        "image": "./images/allow rims.jpg",
+        "price": 1453,
+        "name": "Sonja Mckay",
+        "company": "QUINEX"
     },
     {
-        "_id": "623e936e0bf2705442af4f71",
-        "picture": "http://placehold.it/32x32",
-        "name": "Marietta Mcmahon",
-        "company": "OATFARM"
+        "id": "623ebe6f510a0787e9948308",
+        "image": "./images/bike-air-filter.jpg",
+        "price": 814,
+        "name": "Therese Waller",
+        "company": "ZEPITOPE"
     },
     {
-        "_id": "623e936ee26784afe9c42e9f",
-        "picture": "http://placehold.it/32x32",
-        "name": "Kane Roth",
-        "company": "ORBOID"
+        "id": "623ebe6f9bb0a179cb00b534",
+        "image": "./images/bike-tyres-500x500.jpg",
+        "price": 877,
+        "name": "Lolita Martin",
+        "company": "ENTALITY"
     },
     {
-        "_id": "623e936ecb32b2a351625662",
-        "picture": "http://placehold.it/32x32",
-        "name": "Acevedo Lindsey",
-        "company": "COMVENE"
+        "id": "623ebe6fe136c22eac370e6f",
+        "image": "./images/digital meter.jpg",
+        "price": 1063,
+        "name": "Christensen Bradley",
+        "company": "MEDICROIX"
     },
     {
-        "_id": "623e936e55175e440434582d",
-        "picture": "http://placehold.it/32x32",
-        "name": "Lacy Chavez",
-        "company": "TOYLETRY"
+        "id": "623ebe6f825e83f91dabfacf",
+        "image": "./images/disc brake pad.jpg",
+        "price": 1652,
+        "name": "Conley Tyler",
+        "company": "INTERLOO"
     },
     {
-        "_id": "623e936e26f92300bbdf165c",
-        "picture": "http://placehold.it/32x32",
-        "name": "Vinson Rodgers",
-        "company": "EXTRAGENE"
+        "id": "623ebe6ffe4f7df9b7ef0f33",
+        "image": "./images/engine assymbly.jpg",
+        "price": 1935,
+        "name": "Parks Hamilton",
+        "company": "MOMENTIA"
     },
     {
-        "_id": "623e936ee1741f4cc0972bfe",
-        "picture": "http://placehold.it/32x32",
-        "name": "Mindy Harris",
-        "company": "SNIPS"
+        "id": "623ebe6f297d9a927befe315",
+        "image": "./images/exhaust.jpg",
+        "price": 565,
+        "name": "Klein Andrews",
+        "company": "PHARMACON"
     },
     {
-        "_id": "623e936ef94c8902b6514bb5",
-        "picture": "http://placehold.it/32x32",
-        "name": "Larsen Wiley",
-        "company": "SCENTRIC"
+        "id": "623ebe6f2348a0bbe238dc4a",
+        "image": "./images/helmet.png",
+        "price": 2667,
+        "name": "Patton Torres",
+        "company": "ORBIXTAR"
     },
     {
-        "_id": "623e936e050c16389aece82b",
-        "picture": "http://placehold.it/32x32",
-        "name": "Garcia Roman",
-        "company": "DAISU"
+        "id": "623ebe6f0d426f6cf4fb18bf",
+        "image": "./images/modify lever.jpg",
+        "price": 2364,
+        "name": "Lowe Vazquez",
+        "company": "UNIA"
     },
     {
-        "_id": "623e936e7bea645af9ced6df",
-        "picture": "http://placehold.it/32x32",
-        "name": "Murphy Winters",
-        "company": "BOSTONIC"
+        "id": "623ebe6fe2f17cad79c9c726",
+        "image": "./images/Motorcycle-Chain-Sprocket-Kit.jpg",
+        "price": 2377,
+        "name": "Elisabeth Donaldson",
+        "company": "VIAGREAT"
     },
     {
-        "_id": "623e936e888486de964b7424",
-        "picture": "http://placehold.it/32x32",
-        "name": "Lawanda Sawyer",
-        "company": "KIDGREASE"
+        "id": "623ebe6fe5da107fd924d812",
+        "image": "./images/motorcycle-rear-shock-absorber-2-500x500.jpg",
+        "price": 2314,
+        "name": "Ella Travis",
+        "company": "ECOLIGHT"
     },
     {
-        "_id": "623e936e47153932ff1f79c5",
-        "picture": "http://placehold.it/32x32",
-        "name": "Alston Velazquez",
-        "company": "INSURESYS"
+        "id": "623ebe6fe5da107fd924d812",
+        "image": "./images/Motorcycle-Spark-Plugs-D8ea-D8tc-PA5hc-Honda-98069-58717-2120-Ngk.jpg",
+        "price": 230,
+        "name": "Ella Travis",
+        "company": "ngk"
     }
 ]

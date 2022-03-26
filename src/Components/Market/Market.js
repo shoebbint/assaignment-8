@@ -4,6 +4,7 @@ import Products from '../Products/Products';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import Cart from '../cart/Cart';
+import './Market.css'
 
 const Market = () => {
     const [products, setproducts] = useState([]);
@@ -11,19 +12,26 @@ const Market = () => {
 
         fetch('data.json')
             .then(res => res.json())
-            .then(data => console.log(data))
+            .then(data => setproducts(data))
     }, [])
     return (
-        <div className='container'>
+        <div className='container '>
 
-            <Row>
-                <Col xs={13} md={9}>
-                    <Products></Products>
-                </Col>
-                <Col xs={5} md={3}>
+            <div className='row mt-5'>
+                <div className='col-md-9'>
+                    <div className='products-view'>
+                        {
+                            products.map(product => <Products
+                                product={product}>
+
+                            </Products>)
+                        }
+                    </div>
+                </div>
+                <div className='col-md-3'>
                     <Cart></Cart>
-                </Col>
-            </Row>
+                </div>
+            </div>
         </div>
     );
 };

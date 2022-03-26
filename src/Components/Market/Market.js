@@ -6,17 +6,22 @@ import './Market.css'
 
 
 const Market = () => {
-    const [products, setProducts] = useState([]);
-    useEffect(() => {
 
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
+    const [cart, setCart] = useState([]);
     // button function
-    const addToCart = (productName, productImage) => {
-        console.log(productName)
-    }
+    const addToCart = (product) => {
+        // console.log(product)
+        let cart = [];
+        const newCart = [...cart, product];
+        setCart(newCart);
+    };
     return (
         <div className='container '>
 
@@ -34,7 +39,11 @@ const Market = () => {
                     </div>
                 </div>
                 <div className='col-md-3'>
-                    <Cart></Cart>
+                    {
+                        cart.map(item => <Cart item={item}
+                            key={item.id}></Cart>)
+                    }
+
                 </div>
             </div>
         </div>

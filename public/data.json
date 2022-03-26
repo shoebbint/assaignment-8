@@ -3,84 +3,84 @@
         "id": "623ebe6fe899f64fd7b9f26a",
         "image": "./images/allow rims.jpg",
         "price": 1453,
-        "name": "Sonja Mckay",
+        "name": "Bike Allow rims",
         "company": "QUINEX"
     },
     {
         "id": "623ebe6f510a0787e9948308",
         "image": "./images/bike-air-filter.jpg",
         "price": 814,
-        "name": "Therese Waller",
+        "name": "Air Filter",
         "company": "ZEPITOPE"
     },
     {
         "id": "623ebe6f9bb0a179cb00b534",
         "image": "./images/bike-tyres-500x500.jpg",
         "price": 877,
-        "name": "Lolita Martin",
+        "name": "Bike Tyres",
         "company": "ENTALITY"
     },
     {
         "id": "623ebe6fe136c22eac370e6f",
         "image": "./images/digital meter.jpg",
         "price": 1063,
-        "name": "Christensen Bradley",
+        "name": "Digital Meters",
         "company": "MEDICROIX"
     },
     {
         "id": "623ebe6f825e83f91dabfacf",
         "image": "./images/disc brake pad.jpg",
         "price": 1652,
-        "name": "Conley Tyler",
+        "name": "Disc Brake Pads",
         "company": "INTERLOO"
     },
     {
         "id": "623ebe6ffe4f7df9b7ef0f33",
         "image": "./images/engine assymbly.jpg",
         "price": 1935,
-        "name": "Parks Hamilton",
+        "name": "Complete Engine",
         "company": "MOMENTIA"
     },
     {
         "id": "623ebe6f297d9a927befe315",
         "image": "./images/exhaust.jpg",
         "price": 565,
-        "name": "Klein Andrews",
+        "name": "Akhraphobic Exhaust",
         "company": "PHARMACON"
     },
     {
         "id": "623ebe6f2348a0bbe238dc4a",
         "image": "./images/helmet.png",
         "price": 2667,
-        "name": "Patton Torres",
+        "name": "Certified Helmet",
         "company": "ORBIXTAR"
     },
     {
         "id": "623ebe6f0d426f6cf4fb18bf",
         "image": "./images/modify lever.jpg",
         "price": 2364,
-        "name": "Lowe Vazquez",
+        "name": "Modified Levers",
         "company": "UNIA"
     },
     {
         "id": "623ebe6fe2f17cad79c9c726",
         "image": "./images/Motorcycle-Chain-Sprocket-Kit.jpg",
         "price": 2377,
-        "name": "Elisabeth Donaldson",
+        "name": "Chain sprocket kit",
         "company": "VIAGREAT"
     },
     {
         "id": "623ebe6fe5da107fd924d812",
         "image": "./images/motorcycle-rear-shock-absorber-2-500x500.jpg",
         "price": 2314,
-        "name": "Ella Travis",
+        "name": "Rear Shock Absorber",
         "company": "ECOLIGHT"
     },
     {
-        "id": "623ebe6fe5da107fd924d812",
+        "id": "623ebe6fe5da107fd924d811",
         "image": "./images/Motorcycle-Spark-Plugs-D8ea-D8tc-PA5hc-Honda-98069-58717-2120-Ngk.jpg",
         "price": 230,
-        "name": "Ella Travis",
+        "name": "Spark Plags",
         "company": "ngk"
     }
 ]

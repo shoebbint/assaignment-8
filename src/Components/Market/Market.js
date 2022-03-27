@@ -8,20 +8,26 @@ import './Market.css'
 const Market = () => {
 
     const [products, setProducts] = useState([]);
+    const [cart, setCart] = useState([]);
+    // const [carts, setCarts] = useState([]);
+    // button function
+
+    const addToCart = (product) => {
+        const newCart = [...cart, product];
+        setCart(newCart);
+
+    };
+    // const btnClearCart = (carts) => {
+    //     carts = [];
+    //     setCarts(carts);
+    // };
 
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
-    const [cart, setCart] = useState([]);
-    // button function
-    const addToCart = (product) => {
-        // console.log(product)
-        let cart = [];
-        const newCart = [...cart, product];
-        setCart(newCart);
-    };
+
     return (
         <div className='container '>
 
@@ -40,9 +46,19 @@ const Market = () => {
                 </div>
                 <div className='col-md-3'>
                     {
-                        cart.map(item => <Cart item={item}
-                            key={item.id}></Cart>)
+
+                        // cart.map((item) => (<h4 key={item.id}>
+                        //     {item.name}
+                        // </h4>))
+
+                        // cart.map(item => <Cart item={item}
+                        //     key={item.id}></Cart>)
+
+                        <Cart cart={cart}></Cart>
+
                     }
+
+
 
                 </div>
             </div>

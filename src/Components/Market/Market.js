@@ -62,6 +62,15 @@ const Market = () => {
 
                 </div>
             </div>
+            <div>
+                q-1: How react works?
+                answer:  React uses a declarative paradigm that makes it easier to reason about your application and aims to be both efficient and flexible.React is a JavaScript library (not a framework) that creates user interfaces (UIs) in a predictable and efficient way using declarative code. You can use it to help build single page applications and mobile apps, or to build complex apps if you utilise it with other libraries.
+
+                q-2: how use state works
+                answer:
+                useState is a Hook that allows you to have state variables in functional components. You pass the initial state to this function and it returns a variable with the current state value (not necessarily the initial state) and another function to update this value.
+
+            </div>
         </div>
     );
 };

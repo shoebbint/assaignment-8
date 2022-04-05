@@ -1,12 +1,14 @@
 import React from 'react';
 import Products from '../Products/Products';
+import SelectedItem from '../SelectedItem/SelectedItem';
 import "./Cart.css"
 const Cart = (props) => {
-    console.log(props);
     const { cart } = props;
-    const [name] = cart;
 
-    console.log(name)
+    // const { cart } = props;
+
+
+    // console.log(name)
 
     // if (props.cart.length != 0) {
     // const name = props.cart[0];
@@ -23,13 +25,15 @@ const Cart = (props) => {
             <h2>Selected Items</h2>
             <div>
 
-                <div className='d-flex cart-img'>
-                    {/* <div>
-                        <img src={cart[0].image} alt="" />
-                    </div> */}
-                    <div>
-                        <h4 className=''>{ }</h4>
-                    </div>
+                <div className=''>
+                    {/* {
+                        cart.map(item => <SelectedItem item={item}>
+
+                        </SelectedItem>)
+                    } */}
+                    <SelectedItem cart={cart}>
+
+                    </SelectedItem>
 
                 </div>
                 <button className='btn btn-outline-danger mb-2'>
